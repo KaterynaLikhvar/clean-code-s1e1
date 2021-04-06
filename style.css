@@ -53,11 +53,15 @@ button */
 .main-page__list__input_text,
 .main-page__list__input_checkbox,
 .main-page__add-task__btn,
-.main-page__list__btn {
+.main-page__list__btn,
+.btn-edit,
+.btn-delete {
   outline: none;
 }
 .main-page__list__btn,
-.main-page__add-task__btn {
+.main-page__add-task__btn,
+.btn-edit,
+.btn-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -66,7 +70,9 @@ button */
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.main-page__list__btn:hover {
+.main-page__list__btn:hover,
+.btn-edit,
+.btn-delete {
   color: #3a3A3a;
 }
 /* Heading */
@@ -80,6 +86,7 @@ button */
   margin: 0;
   text-transform: uppercase;
 }
+.main-page__add-task__input,
 .main-page__list__input_text {
   margin: 0;
   font-size: 18px;
